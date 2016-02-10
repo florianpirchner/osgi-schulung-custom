@@ -14,6 +14,7 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Service-Component: OSGI-INF/*.xml
 Import-Package: org.osgi.service.component;version="1.2.2",
  org.osgi.service.component.annotations;version="1.2.0",
+ org.osgi.service.event;version="1.2.0",
  org.osgi.service.http;version="1.2.1",
  org.osgi.service.jdbc;version="1.0.0"
 Bundle-ActivationPolicy: lazy

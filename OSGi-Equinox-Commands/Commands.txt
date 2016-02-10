@@ -10,3 +10,7 @@ services {OSGi-LDAP-filter} - Zeige alle aktiven Services
 Declarative Services:
 ls - Zeige Service Components
 comp {compId} - Zeige Service Details
+
+
+install http://mirror.switch.ch/mirror/apache/dist/felix/org.apache.felix.webconsole-4.2.14-all.jar
+browse to /system/console/
