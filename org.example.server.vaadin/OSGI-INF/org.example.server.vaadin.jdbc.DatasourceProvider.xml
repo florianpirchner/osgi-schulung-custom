@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.example.server.vaadin.jdbc.DatasourceProvider">
+   <implementation class="org.example.server.vaadin.jdbc.DatasourceProvider"/>
+   <service>
+      <provide interface="org.example.server.api.IDatasourceProvider"/>
+   </service>
+   <reference bind="bindDataSourceFactory" cardinality="1..1" interface="org.osgi.service.jdbc.DataSourceFactory" name="DataSourceFactory" policy="static" target="(osgi.jdbc.driver.class=org.apache.derby.jdbc.EmbeddedDriver)" unbind="unbindDataSourceFactory"/>
+</scr:component>

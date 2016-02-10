@@ -5,6 +5,9 @@ Bundle-SymbolicName: org.example.addon1
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: org.example.addon1.Activator
 Require-Bundle: org.eclipse.core.runtime,
- org.example.server.api
+ org.example.server.api,
+ com.vaadin.server
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.service.component.annotations;version="1.2.0"
+Service-Component: OSGI-INF/org.example.addon1.SalesUiExtender.xml
