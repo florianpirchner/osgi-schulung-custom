@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Addon1
+Bundle-SymbolicName: org.example.addon1
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.example.addon1.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.example.server.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,12 @@
+Bundles:
+ss {filter} - Zeige Bundles 
+b {bundleId} - Zeige Bundle Details
+diag {bundleId} - Diagnose Bundle
+p {javaPackage} - PackageInformationen
+
+Services:
+services {OSGi-LDAP-filter} - Zeige alle aktiven Services
+
+Declarative Services:
+ls - Zeige Service Components
+comp {compId} - Zeige Service Details

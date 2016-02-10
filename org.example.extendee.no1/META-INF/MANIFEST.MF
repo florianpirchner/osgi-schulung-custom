@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: No1
+Bundle-SymbolicName: org.example.extendee.no1
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.example.extendee.no1.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Server-Extendee: 
