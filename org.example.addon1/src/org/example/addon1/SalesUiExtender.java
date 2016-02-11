@@ -134,6 +134,7 @@ public class SalesUiExtender implements IAddonUiExtender {
 
 	}
 
+	@SuppressWarnings("serial")
 	public static class SimpleConnectionPool implements JDBCConnectionPool {
 
 		private transient Connection connection;
