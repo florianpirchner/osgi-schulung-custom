@@ -130,6 +130,10 @@ public class SalesUiExtender implements IAddonUiExtender {
 		this.provider = provider;
 	}
 
+	protected void unbindDatasourceProvider(IDatasourceProvider provider) {
+
+	}
+
 	public static class SimpleConnectionPool implements JDBCConnectionPool {
 
 		private transient Connection connection;

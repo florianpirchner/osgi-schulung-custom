@@ -5,5 +5,5 @@
       <provide interface="org.example.server.api.IAddonUiExtender"/>
    </service>
    <property name="type" value="sales"/>
-   <reference bind="bindDatasourceProvider" cardinality="1..1" interface="org.example.server.api.IDatasourceProvider" name="DatasourceProvider" policy="static"/>
+   <reference bind="bindDatasourceProvider" cardinality="1..1" interface="org.example.server.api.IDatasourceProvider" name="DatasourceProvider" policy="static" unbind="unbindDatasourceProvider"/>
 </scr:component>
